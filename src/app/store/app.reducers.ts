@@ -7,7 +7,7 @@ import {ActionReducerMap} from '@ngrx/store';
 
 export interface GlobalAppState{
   shoppingList:fromShoppingList.State;
-  auth:fromAuth.AppState;
+  auth:fromAuth.State;
 }
 
 export const reducers:ActionReducerMap<GlobalAppState> = {
